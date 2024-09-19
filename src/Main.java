@@ -4,8 +4,6 @@ public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        String sOUn = "S";
-
         Numero n1 = new Numero();
         Numero n2 = new Numero();
         Numero resultado = new Numero();
@@ -29,5 +27,6 @@ public class Main {
 
         System.out.println("Resultado: "+ resultado.getValor());
 
+        sc.close();
     }
 }
